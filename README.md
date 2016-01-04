@@ -1,5 +1,5 @@
 # password
-Using your favorite language( I use python), implement a little app that has the following features:
+A Little app by python has the following features:
 •Given a (Username, Password) pair in ASCII; store the pair to a file
 $ python sourcecode.py -a -u <username> -p <password>
 # password will be saved in "password_manager.db" with sqlite3 
