@@ -150,10 +150,10 @@ class PasswordManager(object):
     ''' initialize arguments '''
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-a', '--add', action='store_true', help='add password into database')
-    parser.add_argument('-c', '--check', action='store_true', help='check password validity')
+    parser.add_argument('-a', '--add', action='store_true', help='add password to database')
+    parser.add_argument('-c', '--check', action='store_true', help='check password verification')
     parser.add_argument('-l', '--list', action='store_true', \
-        help='list users from the password database')
+        help='list users in the password database')
     parser.add_argument('-d', '--dele', action='store_true', \
         help='remove user from the password database')
     parser.add_argument('-u', '--user', default=None, help='username')
